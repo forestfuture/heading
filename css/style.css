@@ -1,0 +1,257 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1.dark {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+}
+
+h1.white {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.heading .inner {
+  max-width: 475px;
+  margin: 140px auto;
+}
+
+.heading .inner .heading {
+  margin-bottom: 50px;
+  width: 476px;
+}
+
+.heading .inner .heading1 {
+  border-bottom: 3px solid #3F51B5;
+  padding-bottom: 12px;
+}
+
+.heading .inner .heading2 {
+  border-bottom: 3px dashed #3F51B5;
+  padding-bottom: 12px;
+}
+
+.heading .inner .heading3 {
+  background: #3F51B5;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.heading .inner .heading3 h1 {
+  padding-left: 12px;
+}
+
+.heading .inner .heading4 {
+  background: #7385E9;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.heading .inner .heading4 h1 {
+  padding-left: 12px;
+}
+
+.heading .inner .heading5 {
+  border-left: 5px solid #3F51B5;
+  padding-left: 8px;
+}
+
+.heading .inner .heading6 {
+  position: relative;
+}
+
+.heading .inner .heading6::after {
+  content: "";
+  position: absolute;
+  top: 18px;
+  background: #DCEE39;
+  width: 190px;
+  height: 16px;
+  z-index: -1;
+}
+
+.heading .inner .heading7 span {
+  background: #DCEE39;
+  line-height: 1.70833;
+}
+
+.heading .inner .heading8 {
+  position: relative;
+  background: #3F51B5;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.heading .inner .heading8 h1 {
+  padding-left: 12px;
+}
+
+.heading .inner .heading8::after {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 31px;
+  border: 15px solid transparent;
+  border-top: 15px solid #3F51B5;
+  width: 0;
+  height: 0;
+}
+
+.heading .inner .heading9 {
+  position: relative;
+}
+
+.heading .inner .heading9::before {
+  position: absolute;
+  content: "";
+  background: #B53F4F;
+  bottom: -12px;
+  width: 83px;
+  height: 2px;
+}
+
+.heading .inner .heading9::after {
+  position: absolute;
+  content: "";
+  background: #3F51B5;
+  bottom: -12px;
+  left: 83px;
+  width: 392px;
+  height: 2px;
+}
+
+.heading .inner .heading10 {
+  border-left: 5px solid #3F51B5;
+  padding-left: 8px;
+}
+
+.heading .inner .heading11 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.heading .inner .heading11::after {
+  position: absolute;
+  top: 48px;
+  content: "";
+  height: 4px;
+  width: 52px;
+  background: #3F51B5;
+}
+
+.heading .inner .heading12 img {
+  width: 20px;
+  height: 20px;
+}
+
+.heading .inner .heading13 {
+  position: relative;
+}
+
+.heading .inner .heading13 img {
+  position: absolute;
+  top: -9px;
+  width: 18px;
+  height: 21px;
+}
+
+.heading .inner .heading14 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.heading .inner .heading14::before {
+  content: "";
+  width: 3px;
+  height: 31px;
+  background: #3F51B5;
+  -webkit-transform: rotate(-30deg);
+          transform: rotate(-30deg);
+  margin-right: 14px;
+  margin-top: 2px;
+}
+
+.heading .inner .heading14::after {
+  content: "";
+  width: 3px;
+  height: 31px;
+  background: #3F51B5;
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+  margin-left: 14px;
+  margin-top: 2px;
+}
+
+.heading .inner .heading16 h1 {
+  display: inline;
+  background: -webkit-repeating-linear-gradient(-45deg, #cce7ff, #cce7ff 3px, #e9f4ff 3px, #e9f4ff 7px);
+  background: repeating-linear-gradient(-45deg, #5e75ef, 8px, #9eaaec 8px, #9eaaec 16px);
+  padding: 0 4px;
+}
+
+.heading .inner .heading17 {
+  position: relative;
+}
+
+.heading .inner .heading17 h1 {
+  margin: 0 4px;
+}
+
+.heading .inner .heading17::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  width: 212px;
+  height: 18px;
+  background: repeating-linear-gradient(-45deg, #5e75ef, 8px, #9eaaec 8px, #9eaaec 16px);
+}
+
+.heading .heading15 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.heading .heading15::before {
+  content: "";
+  background: #3F51B5;
+  width: 129px;
+  height: 3px;
+  margin-right: 10px;
+  top: 50%;
+}
+
+.heading .heading15::after {
+  content: "";
+  background: #3F51B5;
+  width: 129px;
+  height: 3px;
+  margin-left: 10px;
+}
